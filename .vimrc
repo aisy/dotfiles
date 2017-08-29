@@ -16,13 +16,13 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-vinegar'
 Plugin 'scrooloose/nerdtree'
 Plugin 'pangloss/vim-javascript'
-Plugin 'mxw/vim-jsx'
 Plugin 'morhetz/gruvbox'
+Plugin 'chemzqm/vim-jsx-improve'
 Plugin 'vim-airline/vim-airline'
+Plugin 'maxmellon/vim-jsx-pretty'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'johngrib/vim-game-code-break'
 
-let g:jsx_ext_required=0
-let g:jsx_pragma_required=1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#fnamemod = ':t'
 let g:gruvbox_italic=1
