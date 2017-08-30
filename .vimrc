@@ -26,6 +26,7 @@ Plugin 'johngrib/vim-game-code-break'
 Plugin 'ervandew/supertab'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'rking/ag.vim'
 
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#fnamemod = ':t'
