@@ -7,6 +7,7 @@ set tabstop=2
 set background=dark
 set laststatus=2
 let mapleader = ","
+set grepprg=ag
 
 nmap <Leader>t :NERDTreeToggle<cr>
 
@@ -37,6 +38,7 @@ let g:airline_left_sep = ''
 let g:airline_left_alt_sep = ''
 let g:airline_right_sep = ''
 let g:airline_right_alt_sep = ''
+let g:grep_cmd_opts = '--line-numbers --noheading'
 
 call vundle#end()
 
