@@ -24,6 +24,7 @@ Plugin 'maxmellon/vim-jsx-pretty'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'johngrib/vim-game-code-break'
 Plugin 'ervandew/supertab'
+Plugin 'airblade/vim-gitgutter'
 
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#fnamemod = ':t'
