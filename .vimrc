@@ -8,6 +8,10 @@ set background=dark
 set laststatus=2
 let mapleader = ","
 set grepprg=ag
+set incsearch
+set hlsearch
+set nohlsearch
+set ignorecase
 
 nmap <Leader>t :NERDTreeToggle<cr>
 
@@ -29,6 +33,7 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'rking/ag.vim'
 Plugin 'skwp/greplace.vim'
+Plugin 'isRuslan/vim-es6'
 
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#fnamemod = ':t'
