@@ -3,6 +3,7 @@ filetype plugin indent on
 set number
 set expandtab
 set shiftwidth=2
+set t_Co=256
 set tabstop=2
 set background=dark
 set laststatus=2
