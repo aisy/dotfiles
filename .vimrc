@@ -41,6 +41,7 @@ Plugin 'othree/javascript-libraries-syntax.vim'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#fnamemod = ':t'
 let g:gruvbox_italic=1
+let g:gruvbox_bold=0
 let g:airline_powerline_fonts = 1
 let g:airline_left_sep = ''
 let g:airline_left_alt_sep = ''
